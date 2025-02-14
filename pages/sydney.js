@@ -43,7 +43,7 @@ const NotSoScrollingBanner = () => {
     <div style={{ overflow: 'hidden', whiteSpace: 'nowrap', width: '100%' }}>
       <motion.div
         style={{ display: 'inline-block' }}
-        // animate={{ x: ["0%", "-100%"] }}
+         animate={{ x: ["0%", "-100%"] }}
         transition={{
           duration: 20,
           repeat: Infinity,
